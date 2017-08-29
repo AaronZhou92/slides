@@ -98,36 +98,6 @@ Optical isolators are devices that allow light to pass in one direction (e.g., a
 \end{frame}
 
 
-
-\begin{frame}{How to Achieve Optical Isolation}
-    \begin{block}{Lorenz Reciprocity}
-
-For linear, static and non-magnetic material,
-     \vskip -0.75cm
-\begin{equation}
-\nabla \cdot (\textbf{$E^{'}$} \times\textbf{$H^{''}$} - \textbf{$E^{''}$} \times\textbf{$H^{'}$}) = j\omega(\textbf{$E^{''}$} \textbf{$\epsilon$} \textbf{$E^{'}$} - \textbf{$E^{'}$} \textbf{$\epsilon$} \textbf{$E^{''}$} - H^{''} \mu \textbf{$H^{'}$}+H^{'} \mu \textbf{$H^{''}$} ) = 0 
-\end{equation}
-     \vskip -0.25cm
-Here, ($E^{'}, H^{'}$) and ($E^{''}, H^{''}$) are two sets of excitation.
-  \end{block}
-  
-
-
-  
-\textbf{Ways to break Lorenz Reciprocity}
-    \begin{block}{Magneto-Optical Effect}
-For magneto-optical material so $\epsilon$ and $\mu$ are non-symmetric tensor.
-  \end{block}
-%  \vskip -1cm
-  \begin{block}{Optical Nonlinearity}
-For nonlinear material, right side of Eq.(1) = $j\omega(\textbf{$E^{''}$} \textbf{$\epsilon$}(E^{'}) \textbf{$E^{'}$} - \textbf{$E^{'}$} \textbf{$\epsilon$}(E^{''}) \textbf{$E^{''}$} - H^{''} \mu(H^{'}) \textbf{$H^{'}$}+H^{'} \mu(H^{''}) \textbf{$H^{''}$} )$
-  \end{block}
-%  \vskip 1cm
-  \begin{block}{Spacial-temporal Modulation}
- For $\epsilon$ and $\mu$ depend on time, the derivation is not valid, so does Lorentz Reciprocity.
-  \end{block}
-\end{frame}
-
 \begin{frame}{How to Achieve Optical solation}
      \vskip -0.15cm
     \begin{block}{Lorenz Reciprocity}
@@ -202,23 +172,35 @@ Insulating in the bulk while conducting in the surface without backscattering ev
 \end{block}
 
 \end{frame}
-\begin{frame}{Topological Photonics}
-\begin{block}{Realize Topological State in Photonic System}
 
+\begin{frame}{Topological Photonics}
+ \vskip -.5cm
+\begin{block}{Realizing Topological State in Photonic System}
+
+Photonic Crystal  \hspace*{3.0em}   Photonic Waveguide\hspace*{3.0em}
+Ring Resonator
+     \vskip -.75cm
 \begin{figure}
     \centering
-    \begin{subfigure}[t]{0.4\textwidth}
-        \includegraphics[width=\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/hall.png}
-        \caption{Quantum Hall Effect. Time reversal symmetry is broken. Hasan and Kane, RMP, 2010}
+    \begin{subfigure}[t]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/photonic_crystal.jpg}
+     
         \label{fig:gull}
-    \end{subfigure}\hspace*{3.0em}%
+    \end{subfigure}\hspace*{-.7em}%
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}[t]{0.415\textwidth}
-        \includegraphics[width=\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.png}
-        \caption{Quantum Spin Hall Effect. Time reversal symmetry is preserved. Hasan and Kane, RMP, 2010}
+    \begin{subfigure}[t]{0.45\textwidth}
+    \vspace*{-3.8555cm}
+        \includegraphics[width=\textwidth, height=0.7575\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/waveguide.pdf}
+
         \label{fig:tiger}
-    \end{subfigure}
+    \end{subfigure}\hspace*{-3.7em}%
+        \begin{subfigure}[t]{0.45\textwidth}
+            \vspace*{-3.9055cm}
+        \includegraphics[width=0.9\textwidth, height=0.7675\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/resonator.pdf}
+
+        \label{fig:gull}
+    \end{subfigure}\hspace*{8.0em}
 \label{fig:animals}
 \end{figure}      
 
@@ -227,7 +209,151 @@ Insulating in the bulk while conducting in the surface without backscattering ev
 %\end{variableblock}
 
 \end{block}
-
+            \vspace*{-.9055cm}
+\footnotetext[4]{Wang, CYD, et al.Nature, 461(7265), 772-5.},  \footnotetext[5]{Rechtsman, M. C. et al. Nature Photon. 7, 153–158 (2013).}
+\footnotetext[6]{
+Hafezi, M.et al. Nature Photon. 7, 1001–1005 (2013).}
 \end{frame}
 % =================================== FIM MATEUS =================================
+
+\begin{frame}{Topological Optical Isolation}
+         \vskip -1.cm 
+         \begin{block}{Nonlinear 1D Su–Schrieffer–Heeger (SSH) model}
+         
+       \begin{columns}
+          \column{0.58\linewidth}
+             %\centering
+             \hspace*{0.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/ssh.pdf}\hspace*{-10.5em}
+           \column{0.4\linewidth}
+                    \vskip -0.5cm 
+Using coupled-mode theory:
+\begin{eqnarray}
+i\frac{da_n}{dz} = \kappa_{1}^{n}b_n + \kappa_{2}^{n-1}b_{n-1}\\
+i\frac{db_n}{dz} = \kappa_{1}^{n}a_n + \kappa_{2}^{n-1}a_{n+1}	
+\end{eqnarray}
+
+
+\begin{itemize}
+\item Topological transition at $\kappa_1$ = $\kappa_2$
+\item Edge state with zero eigenvalue appear when $\kappa_1 < \kappa_2$ 
+\end{itemize}
+
+
+         \end{columns}
+         \end{block}
+\begin{block}{Transmittance}
+\begin{equation}
+\hspace*{-15.7em}
+T = \frac{|a_{0}(Z)|^2}{I}, I = |a_{0}(0)|^2 
+\end{equation}
+I is input power and Z is pre-defined propagation distance.
+\end{block}
+\end{frame}
+
+
+
+
+\begin{frame}{Topological Optical Isolation}
+         \vskip -1.cm 
+         \begin{block}{Nonlinear 1D Su–Schrieffer–Heeger (SSH) model}
+Nonlinear coupling
+\begin{equation}
+\hspace*{-15.7em}
+\kappa_{2}^{n}(z) = \kappa_0 + \alpha(|a_{n+1}(z)|^2|+b_{n}(z)|^2)
+\end{equation}
+$\kappa_1=1$, $\kappa_0=0.5$, $\alpha=1$, Z=20
+\end{block}
+         \begin{block}{}
+         
+       \begin{columns}
+          \column{0.58\linewidth}
+             %\centering
+             \hspace*{0.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/isolation.pdf}\hspace*{-10.5em}
+           \column{0.4\linewidth}
+                    \vskip -0.5cm 
+ \vskip 0.1cm
+Forward transmittance:
+ \vskip -0.75cm
+\begin{equation}
+T_f=\eta_{A}^2\eta_{B}^2 T(\eta_{A}^2 I)
+\end{equation}
+ \vskip -.4cm
+Backward transmittance:
+ \vskip -0.75cm
+\begin{equation}
+T_b=\eta_{A}^2\eta_{B}^2 T(\eta_{B}^2 I)
+\end{equation}
+ \vskip -.2cm
+Isolation Ratio:
+ \vskip -0.5cm
+\begin{equation}
+IR=\frac{T_f}{T_b}
+\end{equation}
+
+
+
+\begin{itemize}
+\item Topological transition at $\kappa_1$ = $\kappa_2$
+\item Edge state with zero eigenvalue appear when $\kappa_1 < \kappa_2$ 
+\end{itemize}
+
+
+         \end{columns}
+         \end{block}
+
+\end{frame}
+\begin{frame}{Topological Optical Isolation}
+         \vskip -1.cm 
+         \begin{block}{Nonlinear 2D Haldane Model}
+Nonlinear coupling
+\begin{equation}
+\hspace*{-15.7em}
+\kappa_{2}^{n}(z) = \kappa_0 + \alpha(|a_{n+1}(z)|^2|+b_{n}(z)|^2)
+\end{equation}
+$\kappa_1=1$, $\kappa_0=0.5$, $\alpha=1$, Z=20
+\end{block}
+         \begin{block}{}
+         
+       \begin{columns}
+          \column{0.58\linewidth}
+             %\centering
+             \hspace*{0.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/isolation.pdf}\hspace*{-10.5em}
+           \column{0.4\linewidth}
+                    \vskip -0.5cm 
+ \vskip 0.1cm
+Forward transmittance:
+ \vskip -0.75cm
+\begin{equation}
+T_f=\eta_{A}^2\eta_{B}^2 T(\eta_{A}^2 I)
+\end{equation}
+ \vskip -.4cm
+Backward transmittance:
+ \vskip -0.75cm
+\begin{equation}
+T_b=\eta_{A}^2\eta_{B}^2 T(\eta_{B}^2 I)
+\end{equation}
+ \vskip -.2cm
+Isolation Ratio:
+ \vskip -0.5cm
+\begin{equation}
+IR=\frac{T_f}{T_b}
+\end{equation}
+
+
+
+\begin{itemize}
+\item Topological transition at $\kappa_1$ = $\kappa_2$
+\item Edge state with zero eigenvalue appear when $\kappa_1 < \kappa_2$ 
+\end{itemize}
+
+
+         \end{columns}
+         \end{block}
+
+\end{frame}
+
+
 \end{document}
