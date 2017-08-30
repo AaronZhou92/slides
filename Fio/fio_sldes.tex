@@ -22,9 +22,9 @@
   \setbeamercolor{block body}{#2}
   \setbeamercolor{block title}{#3}
   \begin{block}{#1}}{\end{block}}
-\title[Software Colaborativo lantonistas]{Optical Isolation with Nonlinear Topological Photonics}
+\title[]{Optical Isolation with Nonlinear Topological Photonics}
 %\author[CDTec] {Cristian Pereira, André Einhardt, Mateus Nascimento}
-\author[CDTec] {Xin Zhou, You Wang, Daniel Leykam and Yidong Chong}
+\author[] {Xin Zhou, You Wang, Daniel Leykam and Yidong Chong}
 
 \institute[]{Nanyang Technological University, Singapore}
 \date{September 2017}
@@ -37,7 +37,8 @@
   \titlepage 
       \begin{figure}[h]
   \includegraphics[width=2.3cm,height=2.3cm] {/home/zhouxin/research/conference/presentation/mtheme/slides/icon.png}
-  \includegraphics[width=3.5cm,height=2.1cm,scale=1] {/home/zhouxin/research/conference/presentation/mtheme/slides/icon.png}
+  \hspace*{3.0em}
+  \includegraphics[width=3.5cm,height=2.1cm,scale=1] {/home/zhouxin/research/conference/presentation/mtheme/slides/ntu_logo.png}
       \end{figure}
   \end{center}
 \end{frame}
@@ -76,29 +77,26 @@
 % ================== ÁREAS SENDO ALTERADAS POR CRISTIAN PEREIRA ==================
 \begin{frame}{What is Optical Isolation}
 Optical isolators are devices that allow light to pass in one direction (e.g., along a waveguide), while blocking transmission in the other direction, thus acting as the analogues of diodes in electronic circuits
-\begin{itemize}
-    \item Facilita
-\end{itemize}
-\vskip 3cm
-\end{frame}
+\begin{figure}
 
-\begin{frame}{Why We Need Optical Isolator}
+  \centering
+    \includegraphics[width=0.5\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/isolator.png}
+      \caption{A schematic picture of optical isolator.}
+\end{figure}
+     \vskip -0.5cm
     \begin{block}
-    {Reason}
+    {Why we need it}
       \begin{itemize}
         \item In modern fibre communication networks it is an essential device to prevent interference between different parts of the networks.
-    \end{itemize}
-  \end{block}
-  \vskip 1cm
-  \begin{block}{Why need on-chip size optical isolator}
-    \begin{itemize}
-        \item Nowadays people become more and more interested in large-scale on-chip networks, so optical isolation on-chip size is becoming increasingly important. 
+        \item Nowadays people become more and more interested in large-scale on-chip networks, so optical isolation on-chip size is becoming increasingly important.
     \end{itemize}
   \end{block}
 \end{frame}
 
+ 
 
-\begin{frame}{How to Achieve Optical solation}
+
+\begin{frame}{How to Achieve Optical Isolation}
      \vskip -0.15cm
     \begin{block}{Lorenz Reciprocity}
 
@@ -264,6 +262,9 @@ Nonlinear coupling
 \end{equation}
 $\kappa_1=1$, $\kappa_0=0.5$, $\alpha=1$, Z=20
 \end{block}
+
+ \vskip -0.3cm
+
          \begin{block}{}
          
        \begin{columns}
@@ -293,11 +294,16 @@ IR=\frac{T_f}{T_b}
 \end{equation}
 
 
+ \vskip -0.1cm
+ \hspace*{-2em}
+{\small 1.T(I) increase significantly when $<\frac{\kappa_2}{\kappa_1}>$ crosses 1}
 
-\begin{itemize}
-\item Topological transition at $\kappa_1$ = $\kappa_2$
-\item Edge state with zero eigenvalue appear when $\kappa_1 < \kappa_2$ 
-\end{itemize}
+ \hspace*{-2em}
+{\small 2.$<\frac{\kappa_2}{\kappa_1}>=1$ indicates topological trnasition for underline linear lattice}
+
+ \hspace*{-2em}
+{\small 3.$T_b$ is pretty smaller comparing to $T_f$ in a broad range of I}
+
 
 
          \end{columns}
@@ -306,48 +312,63 @@ IR=\frac{T_f}{T_b}
 \end{frame}
 \begin{frame}{Topological Optical Isolation}
          \vskip -1.cm 
-         \begin{block}{Nonlinear 2D Haldane Model}
-Nonlinear coupling
-\begin{equation}
-\hspace*{-15.7em}
-\kappa_{2}^{n}(z) = \kappa_0 + \alpha(|a_{n+1}(z)|^2|+b_{n}(z)|^2)
-\end{equation}
-$\kappa_1=1$, $\kappa_0=0.5$, $\alpha=1$, Z=20
-\end{block}
+         \begin{block}{Nonlinear 2D Haldane Model}       
+       \begin{columns}
+          \column{0.25\linewidth}
+             %\centering
+             \hspace*{-2em}
+             \includegraphics[width=1.0\textwidth, height=1.0\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/haldane_lattice.png}
+             
+          \column{0.25\linewidth}
+             %\centering
+             \hspace*{-5em}
+             \includegraphics[width=1.0\textwidth, height=1.0\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/pd.png}\hspace*{-10.5em}             
+             
+             
+           \column{0.2\linewidth}
+                    \vskip -0.5cm 
+\hspace*{-4.5em}
+\mbox{Nonlinear on-site potential}
+ \vskip 0.cm 
+
+\hspace*{-6.5em}
+$m_A^{\mu} = \frac{m_0}{1+|a_{\mu}|^2}, m_B^{\mu} = \frac{-m_0}{1+|b_{\mu}|^2}$
+\hspace*{-6.5em}
+\mbox{$t_1=1, t_2=\frac{1}{3}, \phi=\frac{\pi}{2}, m_0=2$}
+
+\vskip 0.2cm
+\hspace*{-6.5em}
+\mbox{For fixed $t_1, t_2, \phi$, topological phase} 
+\hspace*{-6.5em}
+\mbox{ transition happens at} 
+\hspace*{-4.5em}
+\mbox{$m_A-m_B=|6\sqrt{3}t_2\sin{\phi}|$}
+         \end{columns} 
+         \end{block}
+
+ \vskip -0.6cm
          \begin{block}{}
          
        \begin{columns}
-          \column{0.58\linewidth}
+          \column{0.55\linewidth}
              %\centering
              \hspace*{0.5em}
-             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/isolation.pdf}\hspace*{-10.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/haldane.pdf}\hspace*{-10.5em}
            \column{0.4\linewidth}
-                    \vskip -0.5cm 
+
+Z = 19.2, $\eta_A=\eta_B=1.0$
+ \vskip -0.1cm
+ \hspace*{-2em}
+{\small 1.T(I) increase significantly when $<m_A>-<m_B>$ crosses $2\sqrt{3}$}
  \vskip 0.1cm
-Forward transmittance:
- \vskip -0.75cm
-\begin{equation}
-T_f=\eta_{A}^2\eta_{B}^2 T(\eta_{A}^2 I)
-\end{equation}
- \vskip -.4cm
-Backward transmittance:
- \vskip -0.75cm
-\begin{equation}
-T_b=\eta_{A}^2\eta_{B}^2 T(\eta_{B}^2 I)
-\end{equation}
- \vskip -.2cm
-Isolation Ratio:
- \vskip -0.5cm
-\begin{equation}
-IR=\frac{T_f}{T_b}
-\end{equation}
+ \hspace*{-2em}
+{\small 2.$<m_A>-<m_B> = 2\sqrt{3}$ indicates topological trnasition for underline linear lattice}
+ \vskip 0.1cm
+ \hspace*{-2em}
+{\small 3.$T_b$ is pretty smaller comparing to $T_f$ in a broad range of I.}
 
 
 
-\begin{itemize}
-\item Topological transition at $\kappa_1$ = $\kappa_2$
-\item Edge state with zero eigenvalue appear when $\kappa_1 < \kappa_2$ 
-\end{itemize}
 
 
          \end{columns}
@@ -355,5 +376,84 @@ IR=\frac{T_f}{T_b}
 
 \end{frame}
 
+\begin{frame}{Topological Optical Isolation}
+         \vskip -1.cm
 
+         \begin{block}{Nonlinear Coupled Ring Lattices}
+         
+       \begin{columns}
+          \column{0.4\linewidth}
+             %\centering
+             \hspace*{0.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/Lattice.pdf}\hspace*{-10.5em}
+           \column{0.4\linewidth}
+ 
+            \hspace*{0.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/band_psi.pdf}\hspace*{-10.5em}
+
+
+
+
+
+         \end{columns}
+         \begin{eqnarray}
+         \begin{bmatrix}
+    c       \\
+       \gamma  
+
+\end{bmatrix}=S_c(\theta_0)\begin{bmatrix}
+    a       \\
+       \alpha  
+
+\end{bmatrix}, \begin{bmatrix}
+    d       \\
+       \delta  
+
+\end{bmatrix}=S_c(\theta_0)\begin{bmatrix}
+    b       \\
+       \beta  
+
+\end{bmatrix}, S_c(\theta_0)=\begin{bmatrix}
+    \sin(\theta_0) & i\cos(\theta_0)      \\
+       i\cos(\theta_0) &  \sin(\theta_0)
+
+\end{bmatrix}\\
+\alpha = e^{i\xi_1}\delta, \beta = e^{i\xi_2}\gamma
+         \end{eqnarray}
+         \end{block}
+
+\end{frame}
+
+
+\begin{frame}{Topological Optical Isolation}
+         \vskip -1.cm
+
+         \begin{block}{Nonlinear Coupled Ring Lattices}
+         Introduce Kerr-like nonlinearity to phase shift on each arm
+         \begin{equation}
+         \xi = \xi_0 + \kappa I        
+         \end{equation}
+       \begin{columns}
+          \column{0.5\linewidth}
+             %\centering
+             \hspace*{0.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/Trans_psi_1.pdf}\hspace*{-10.5em}
+           \column{0.5\linewidth}
+ 
+            \hspace*{0.5em}
+             \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{/home/zhouxin/research/conference/presentation/mtheme/slides/IRP2.pdf}\hspace*{-10.5em}
+
+
+
+
+
+         \end{columns}
+
+         \end{block}
+
+\end{frame}
+\begin{frame}{Conclusion}
+         \vskip -1.cm
+
+\end{frame}
 \end{document}
