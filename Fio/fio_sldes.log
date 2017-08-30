@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  30 AUG 2017 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  30 AUG 2017 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,16 +789,16 @@ LaTeX Warning: Label `fig:gull' multiply defined.
 LaTeX Warning: Label `sub@fig:gull' multiply defined.
 
 
-LaTeX Warning: Label `fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:tiger' multiply defined.
-
-
 LaTeX Warning: Label `fig:gull' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:gull' multiply defined.
+
+
+LaTeX Warning: Label `fig:tiger' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:tiger' multiply defined.
 
 
 LaTeX Warning: Label `fig:animals' multiply defined.
@@ -1063,7 +1063,7 @@ aday.png Graphic file (type png)
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/isolator_fara
 day.png>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/isolator_faraday.png used on input line 144.
+slides/isolator_faraday.png used on input line 142.
 (pdftex.def)             Requested size: 85.35315pt x 56.90112pt.
 
 </home/zhouxin/research/conference/presentation/mtheme/slides/pt_isolator.pdf, 
@@ -1074,15 +1074,11 @@ pdf Graphic file (type pdf)
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/pt_isolator.p
 df>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/pt_isolator.pdf used on input line 144.
+slides/pt_isolator.pdf used on input line 142.
 (pdftex.def)             Requested size: 113.80917pt x 71.1319pt.
 
-Overfull \hbox (2.56425pt too wide) in paragraph at lines 144--144
+Overfull \hbox (2.56425pt too wide) in paragraph at lines 142--142
  [] 
- []
-
-
-Overfull \vbox (11.30525pt too high) detected at line 144
  []
 
 [4
@@ -1090,222 +1086,179 @@ Overfull \vbox (11.30525pt too high) detected at line 144
  </home/zhouxin/research/conference/presentation/mtheme/slides/isolator_faraday
 .png> </home/zhouxin/research/conference/presentation/mtheme/slides/pt_isolator
 .pdf>]
-</home/zhouxin/research/conference/presentation/mtheme/slides/hall.png, id=73, 
-645.41125pt x 324.21124pt>
-File: /home/zhouxin/research/conference/presentation/mtheme/slides/hall.png Gra
-phic file (type png)
-
-<use /home/zhouxin/research/conference/presentation/mtheme/slides/hall.png>
-Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/hall.png used on input line 172.
-(pdftex.def)             Requested size: 136.91603pt x 68.774pt.
-
-</home/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.png, id
-=74, 626.34pt x 301.125pt>
-File: /home/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.pn
-g Graphic file (type png)
-
-<use /home/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.png
->
-Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/spin_hall.png used on input line 172.
-(pdftex.def)             Requested size: 142.05025pt x 68.29237pt.
- [5
-
- </home/zhouxin/research/conference/presentation/mtheme/slides/hall.png> </home
-/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.png>]
 </home/zhouxin/research/conference/presentation/mtheme/slides/photonic_crystal.
-jpg, id=86, 568.1225pt x 602.25pt>
+jpg, id=73, 568.1225pt x 602.25pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/photonic_cry
 stal.jpg Graphic file (type jpg)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/photonic_crys
 tal.jpg>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/photonic_crystal.jpg used on input line 214.
+slides/photonic_crystal.jpg used on input line 194.
 (pdftex.def)             Requested size: 102.68962pt x 108.8506pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:gull}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{sub@fig:gull}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{frame}
-                 
+
 </home/zhouxin/research/conference/presentation/mtheme/slides/waveguide.pdf, id
-=87, 949.5475pt x 723.70375pt>
+=74, 949.5475pt x 723.70375pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/waveguide.pd
 f Graphic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/waveguide.pdf
 >
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/waveguide.pdf used on input line 214.
+slides/waveguide.pdf used on input line 194.
 (pdftex.def)             Requested size: 154.03159pt x 116.67839pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:tiger}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{sub@fig:tiger}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{frame}
-                 
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
 </home/zhouxin/research/conference/presentation/mtheme/slides/resonator.pdf, id
-=88, 949.5475pt x 723.70375pt>
+=75, 949.5475pt x 723.70375pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/resonator.pd
 f Graphic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/resonator.pdf
 >
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/resonator.pdf used on input line 214.
+slides/resonator.pdf used on input line 194.
 (pdftex.def)             Requested size: 138.61539pt x 118.21333pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:gull}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{sub@fig:gull}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{fig:animals}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{frame}
-                 
-Overfull \hbox (115.17816pt too wide) in paragraph at lines 214--214
+
+Overfull \hbox (115.17816pt too wide) in paragraph at lines 194--194
  []|   []| []|  [][][] 
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [6
 
- </home/zhouxin/research/conference/presentation/mtheme/slides/photonic_crystal
-.jpg> </home/zhouxin/research/conference/presentation/mtheme/slides/waveguide.p
-df> </home/zhouxin/research/conference/presentation/mtheme/slides/resonator.pdf
+Overfull \vbox (7.47667pt too high) detected at line 194
+ []
 
+[5
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:gull}) ha
+s been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.194 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{sub@fig:gull}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.194 \end{frame}
+                  </home/zhouxin/research/conference/presentation/mtheme/slides
+/photonic_crystal.jpg> </home/zhouxin/research/conference/presentation/mtheme/s
+lides/waveguide.pdf> </home/zhouxin/research/conference/presentation/mtheme/sli
+des/resonator.pdf
 
 pdfTeX warning: pdflatex (file /home/zhouxin/research/conference/presentation/m
 theme/slides/resonator.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
 >]
-</home/zhouxin/research/conference/presentation/mtheme/slides/ssh.pdf, id=113, 
+</home/zhouxin/research/conference/presentation/mtheme/slides/ssh.pdf, id=104, 
 734.78831pt x 469.59314pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/ssh.pdf Grap
 hic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/ssh.pdf>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/ssh.pdf used on input line 250.
+slides/ssh.pdf used on input line 230.
 (pdftex.def)             Requested size: 178.67366pt x 158.82835pt.
 
-Overfull \vbox (1.03831pt too high) detected at line 250
+Overfull \vbox (1.03831pt too high) detected at line 230
  []
 
-[7
+[6
 
  </home/zhouxin/research/conference/presentation/mtheme/slides/ssh.pdf>]
 </home/zhouxin/research/conference/presentation/mtheme/slides/isolation.pdf, id
-=143, 453.82016pt x 581.97693pt>
+=133, 453.82016pt x 581.97693pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/isolation.pd
 f Graphic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/isolation.pdf
 >
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/isolation.pdf used on input line 312.
+slides/isolation.pdf used on input line 292.
 (pdftex.def)             Requested size: 178.67877pt x 158.8231pt.
 
-Overfull \vbox (8.85979pt too high) detected at line 312
+Overfull \vbox (8.85979pt too high) detected at line 292
  []
 
-[8
+[7
 
  </home/zhouxin/research/conference/presentation/mtheme/slides/isolation.pdf>]
 </home/zhouxin/research/conference/presentation/mtheme/slides/haldane_lattice.p
-ng, id=181, 1256.695pt x 1046.91125pt>
+ng, id=171, 1256.695pt x 1046.91125pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/haldane_latt
 ice.png Graphic file (type png)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/haldane_latti
 ce.png>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/haldane_lattice.png used on input line 377.
+slides/haldane_lattice.png used on input line 357.
 (pdftex.def)             Requested size: 85.56151pt x 85.55974pt.
 
-</home/zhouxin/research/conference/presentation/mtheme/slides/pd.png, id=182, 7
+</home/zhouxin/research/conference/presentation/mtheme/slides/pd.png, id=172, 7
 47.2718pt x 420.1296pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/pd.png Graph
 ic file (type png)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/pd.png>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/pd.png used on input line 377.
+slides/pd.png used on input line 357.
 (pdftex.def)             Requested size: 85.56386pt x 85.5694pt.
 
-Overfull \hbox (6.12367pt too wide) in paragraph at lines 377--377
+Overfull \hbox (6.12367pt too wide) in paragraph at lines 357--357
 []|  []  
  []
 
 
-Overfull \hbox (25.82848pt too wide) in paragraph at lines 377--377
+Overfull \hbox (25.82848pt too wide) in paragraph at lines 357--357
 []|  [] 
  []
 
 
-Overfull \hbox (0.57256pt too wide) in paragraph at lines 377--377
+Overfull \hbox (0.57256pt too wide) in paragraph at lines 357--357
 |  []  
  []
 
 
 </home/zhouxin/research/conference/presentation/mtheme/slides/haldane.pdf, id=1
-84, 1108.99574pt x 870.82977pt>
+74, 1108.99574pt x 870.82977pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/haldane.pdf 
 Graphic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/haldane.pdf>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/haldane.pdf used on input line 377.
+slides/haldane.pdf used on input line 357.
 (pdftex.def)             Requested size: 169.42197pt x 150.60364pt.
 
-Overfull \vbox (2.93529pt too high) detected at line 377
+Overfull \vbox (2.93529pt too high) detected at line 357
  []
 
-[9
+[8
 
  </home/zhouxin/research/conference/presentation/mtheme/slides/haldane_lattice.
 png> </home/zhouxin/research/conference/presentation/mtheme/slides/pd.png> </ho
 me/zhouxin/research/conference/presentation/mtheme/slides/haldane.pdf>]
 </home/zhouxin/research/conference/presentation/mtheme/slides/Lattice.pdf, id=2
-836, 416.36214pt x 361.80283pt>
+827, 416.36214pt x 361.80283pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/Lattice.pdf 
 Graphic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/Lattice.pdf>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/Lattice.pdf used on input line 425.
+slides/Lattice.pdf used on input line 405.
 (pdftex.def)             Requested size: 123.21965pt x 109.52988pt.
 
 </home/zhouxin/research/conference/presentation/mtheme/slides/band_psi.pdf, id=
-2837, 527.266pt x 632.70717pt>
+2828, 527.266pt x 632.70717pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/band_psi.pdf
  Graphic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/band_psi.pdf>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/band_psi.pdf used on input line 425.
+slides/band_psi.pdf used on input line 405.
 (pdftex.def)             Requested size: 123.22366pt x 109.52827pt.
-[10
+[9
 
  </home/zhouxin/research/conference/presentation/mtheme/slides/Lattice.pdf> </h
 ome/zhouxin/research/conference/presentation/mtheme/slides/band_psi.pdf
@@ -1315,27 +1268,27 @@ theme/slides/band_psi.pdf): PDF inclusion: multiple pdfs with page group includ
 ed in a single page
 >]
 </home/zhouxin/research/conference/presentation/mtheme/slides/Trans_psi_1.pdf, 
-id=3189, 537.14943pt x 459.71747pt>
+id=3180, 537.14943pt x 459.71747pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/Trans_psi_1.
 pdf Graphic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/Trans_psi_1.p
 df>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/Trans_psi_1.pdf used on input line 454.
+slides/Trans_psi_1.pdf used on input line 434.
 (pdftex.def)             Requested size: 154.03174pt x 136.92021pt.
 
-</home/zhouxin/research/conference/presentation/mtheme/slides/IRP2.pdf, id=3190
+</home/zhouxin/research/conference/presentation/mtheme/slides/IRP2.pdf, id=3181
 , 490.64049pt x 331.99292pt>
 File: /home/zhouxin/research/conference/presentation/mtheme/slides/IRP2.pdf Gra
 phic file (type pdf)
 
 <use /home/zhouxin/research/conference/presentation/mtheme/slides/IRP2.pdf>
 Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
-slides/IRP2.pdf used on input line 454.
+slides/IRP2.pdf used on input line 434.
 (pdftex.def)             Requested size: 154.036pt x 136.91837pt.
 
-[11
+[10
 
  </home/zhouxin/research/conference/presentation/mtheme/slides/Trans_psi_1.pdf>
  </home/zhouxin/research/conference/presentation/mtheme/slides/IRP2.pdf
@@ -1343,9 +1296,58 @@ slides/IRP2.pdf used on input line 454.
 pdfTeX warning: pdflatex (file /home/zhouxin/research/conference/presentation/m
 theme/slides/IRP2.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
->] [12
+>] [11
 
 ]
+</home/zhouxin/research/conference/presentation/mtheme/slides/hall.png, id=4447
+, 645.41125pt x 324.21124pt>
+File: /home/zhouxin/research/conference/presentation/mtheme/slides/hall.png Gra
+phic file (type png)
+
+<use /home/zhouxin/research/conference/presentation/mtheme/slides/hall.png>
+Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
+slides/hall.png used on input line 465.
+(pdftex.def)             Requested size: 136.91603pt x 68.774pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:gull}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.465 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{sub@fig:gull}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.465 \end{frame}
+                 
+</home/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.png, id
+=4448, 626.34pt x 301.125pt>
+File: /home/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.pn
+g Graphic file (type png)
+
+<use /home/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.png
+>
+Package pdftex.def Info: /home/zhouxin/research/conference/presentation/mtheme/
+slides/spin_hall.png used on input line 465.
+(pdftex.def)             Requested size: 142.05025pt x 68.29237pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:tiger}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.465 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{sub@fig:tiger}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.465 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{fig:animals}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.465 \end{frame}
+                  [12
+
+ </home/zhouxin/research/conference/presentation/mtheme/slides/hall.png> </home
+/zhouxin/research/conference/presentation/mtheme/slides/spin_hall.png>]
 \tf@nav=\write6
 \openout6 = `fio_sldes.nav'.
 
@@ -1355,11 +1357,11 @@ n a single page
 \tf@snm=\write8
 \openout8 = `fio_sldes.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
  (./fio_sldes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 466.
 Package rerunfilecheck Info: File `fio_sldes.out' has not changed.
 (rerunfilecheck)             Checksum: E734E3A441C99ABC99B79DDB1F255B3D;94.
 
@@ -1370,16 +1372,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 466.
  ) 
 Here is how much of TeX's memory you used:
- 18946 strings out of 493029
- 364422 string characters out of 6136234
- 454217 words of memory out of 5000000
- 21986 multiletter control sequences out of 15000+600000
- 17026 words of font info for 62 fonts, out of 8000000 for 9000
+ 18912 strings out of 493029
+ 363720 string characters out of 6136234
+ 453437 words of memory out of 5000000
+ 21957 multiletter control sequences out of 15000+600000
+ 15073 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,57p,408b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,57p,408b,1039s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
@@ -1388,16 +1390,15 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on fio_sldes.pdf (12 pages, 2798115 bytes).
+amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on fio_sldes.pdf (12 pages, 2785970 bytes).
 PDF statistics:
- 4512 PDF objects out of 5155 (max. 8388607)
- 2996 compressed objects within 30 object streams
+ 4508 PDF objects out of 5155 (max. 8388607)
+ 2993 compressed objects within 30 object streams
  32 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
